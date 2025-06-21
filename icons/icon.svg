@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#0066cc"/>
+  
+  <!-- Download arrow -->
+  <g stroke="white" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Arrow down -->
+    <path d="M64 30 L64 75"/>
+    <path d="M45 56 L64 75 L83 56"/>
+    
+    <!-- Box bottom -->
+    <path d="M40 80 L40 95 Q40 98 43 98 L85 98 Q88 98 88 95 L88 80"/>
+  </g>
+  
+  <!-- Small artifact indicator -->
+  <circle cx="90" cy="38" r="16" fill="#10b981"/>
+  <text x="90" y="44" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">A</text>
+</svg>
